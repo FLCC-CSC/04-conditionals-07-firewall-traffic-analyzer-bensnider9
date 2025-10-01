@@ -20,7 +20,7 @@ port = int(input('Enter the port number (e.g., 80, 22, 443, 3389): '))
 data = int(input('Enter the data transfer size in megabytes (MB): '))
 print('')
 print("FIREWALL LOG:")
-print(f'Port: {port}, Transfer size: {data} MB ')
+print(f'Port: {port}, Transfer Size: {data} MB ')
 if port == 22 and data > 500:
     print('Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!')
 elif port == 80 and data > 100:
